@@ -8,12 +8,12 @@ cd docs/.vuepress/dist # 进入生成的文件夹
 echo 'blog.xugaoyi.com' > CNAME
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:xugaoyi/blog.git
+  githubUrl=git@github.com:Cynicism-lab/cynicism-lab.github.io.git
 else
   msg='来自github action的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/xugaoyi/blog.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
+  githubUrl=https://cynicism-lab:${GITHUB_TOKEN}@github.com/cynicism-lab.github.io.git
+  git config --global user.name "cynicism-lab"
+  git config --global user.email "1711546733@qq.com"
 fi
 git init
 git add -A
