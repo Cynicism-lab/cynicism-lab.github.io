@@ -44,10 +44,10 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             text: '学习笔记',
             items: [
               { text: '《JavaWeb》笔记', link: '/note/javaweb/' },
+              { text: '《SSM》笔记', link: '/note/ssm/' },
               { text: '《JavaScript高级程序设计》', link: '/note/js/' },
               { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },
-              { text: '《React》', link: '/note/react/' },
+              { text: '《Vue》', link: '/note/vue/' },              
               {
                 text: '《TypeScript 从零实现 axios》',
                 link: '/note/typescript-axios/',
