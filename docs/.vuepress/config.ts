@@ -35,26 +35,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         items: [
           // 说明：以下所有link的值只是在相应md文件头部定义的永久链接（不是什么特殊编码）。另外，注意结尾是有斜杠的
           {
-            text: '前端文章',
+            text: '前端学习笔记',
             items: [
-              { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-            ],
-          },
-          {
-            text: '学习笔记',
-            items: [
-              { text: '《JavaWeb》笔记', link: '/note/javaweb/' },
-              { text: '《SSM》笔记', link: '/note/ssm/' },
-              { text: '《JavaScript高级程序设计》', link: '/note/js/' },
-              { text: '《ES6 教程》', link: '/note/es6/' },
-              { text: '《Vue》', link: '/note/vue/' },              
+              { text: '《Vue》笔记', link: '/note/vue/' }, 
               {
                 text: '《TypeScript 从零实现 axios》',
                 link: '/note/typescript-axios/',
-              },
-              {
-                text: '《Git》',
-                link: '/note/git/',
               },
               {
                 text: 'TypeScript',
@@ -64,6 +50,22 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 text: 'JS设计模式总结',
                 link: '/pages/4643cd/',
               },
+              {
+                text: '小程序笔记',
+                link: '/note/wx-miniprogram/',
+              },
+            ],
+          },
+          {
+            text: '后端学习笔记',
+            items: [
+              { text: '《JavaWeb》笔记', link: '/note/javaweb/' },
+              { text: '《SSM》笔记', link: '/note/ssm/' },
+              { text: '《瑞吉外卖》学习笔记', link: '/note/es6/' },
+              {
+                text: '《Git》',
+                link: '/note/git/',
+              }, 
             ],
           },
         ],
