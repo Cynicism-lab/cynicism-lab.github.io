@@ -61,13 +61,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             items: [
               { text: '《JavaWeb》笔记', link: '/note/javaweb/' },
               { text: '《SSM》笔记', link: '/note/ssm/' },
-              { text: '《瑞吉外卖》学习笔记', link: '/note/es6/' },
+              { text: '《瑞吉外卖》', link: '/note/es6/' },
               {
-                text: '《Git》',
+                text: '《Git》笔记',
                 link: '/note/git/',
               }, 
-        
               { text: '《SpringCloud》笔记', link: '/note/springcloud/' },
+              { text: '《黑马点评》', link: '/note/hmdp/' },
             ],
           },
         ],
