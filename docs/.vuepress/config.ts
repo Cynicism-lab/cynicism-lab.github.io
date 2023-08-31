@@ -66,6 +66,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《SpringCloud》', link: '/note/springcloud/' },
               { text: '《黑马点评》', link: '/note/hmdp/' },
               { text: '《Spring5原理》', link: '/note/spring5/' },
+              { text: '《JVM》', link: '/note/jvm/' },
             ],
           },
         ],
