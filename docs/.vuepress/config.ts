@@ -180,7 +180,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://img0.baidu.com/it/u=766482992,3183650696&fm=253&fmt=auto&app=120&f=JPEG?w=720&h=450',
+      avatar: 'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/u=766482992,3183650696&fm=253&fmt=auto&app=120&f=JPEG.7jcc2cja311c.webp',
       name: 'Cynicism',
       slogan: 'Java后端学习中的IKUN',
     },
@@ -223,7 +223,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 自定义hmtl(广告)模块
-    htmlModules
+    // htmlModules
   },
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
