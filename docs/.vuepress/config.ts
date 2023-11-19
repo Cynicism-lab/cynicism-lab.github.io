@@ -120,7 +120,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: 'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/logo.2t76ndmzk30g.webp', // 导航栏logo
+    logo: 'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/logo.2t76ndmzk30g.webp', // 导航栏logo
     repo: 'Cynicism-lab/cynicism-lab.github.io', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -144,17 +144,17 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //   'https://fastly.jsdelivr.net/gh/xugaoyi/image_store/blog/20200507175846.jpeg'
     // ], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
     bodyBgImg:[
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/back1.53bykj2hobuo.gif'
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/back1.53bykj2hobuo.gif'
     ],
     bodyBgImgOpacity: 0.5, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 15, // body多张背景图时的切换间隔, 默认15，单位s
     titleBadge: true, // 文章标题前的图标是否显示，默认true
     titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/web.6g8zlqsvjb40.webp',
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/ui.1fdgrutxqydc.webp',
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/python.1w6ffp6fyg3k.webp',
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/other.4glfg0a2omm8.webp',
-      'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/more.6q4jj3siyj5s.webp'
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/web.6g8zlqsvjb40.webp',
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/ui.1fdgrutxqydc.webp',
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/python.1w6ffp6fyg3k.webp',
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/other.4glfg0a2omm8.webp',
+      'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/more.6q4jj3siyj5s.webp'
     ],
     // contentBgStyle: 1, // 文章内容块的背景风格，默认无. 1 方格 | 2 横线 | 3 竖线 | 4 左斜线 | 5 右斜线 | 6 点状
 
@@ -180,7 +180,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/u=766482992,3183650696&fm=253&fmt=auto&app=120&f=JPEG.7jcc2cja311c.webp',
+      avatar: 'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/u=766482992,3183650696&fm=253&fmt=auto&app=120&f=JPEG.7jcc2cja311c.webp',
       name: 'Cynicism',
       slogan: 'Java后端学习中的IKUN',
     },
@@ -228,7 +228,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ['link', { rel: 'icon', href: 'https://cdn.staticaly.com/gh/Cynicism-lab/MyResource@gh-pages/image/logo.2t76ndmzk30g.webp' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: 'https://cdn.jsdelivr.net/gh/Cynicism-lab/MyResource@gh-pages/image/logo.2t76ndmzk30g.webp' }], //favicons，资源放在public文件夹
     [
       'meta',
       {
