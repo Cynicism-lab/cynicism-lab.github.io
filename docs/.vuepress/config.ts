@@ -67,6 +67,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《黑马点评》', link: '/note/hmdp/' },
               { text: '《Spring原理》', link: '/note/spring/' },
               { text: '《JVM》', link: '/note/jvm/' },
+              { text: '《Java并发编程》', link: '/note/concurrency/' },
             ],
           },
         ],
