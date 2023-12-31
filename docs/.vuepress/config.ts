@@ -340,7 +340,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         options: {
           clientID: 'bca9adb693888b065a52',
           clientSecret: '89adc592b0221bc55e87ba27a659f817b5b4809a',
-          repo: 'MyResource', // GitHub 仓库
+          repo: 'cynicism-lab.github.io', // GitHub 仓库
           owner: 'cynicism-lab', // GitHub仓库所有者
           admin: ['cynicism-lab'], // 对仓库有写权限的人
           // distractionFreeMode: true,
