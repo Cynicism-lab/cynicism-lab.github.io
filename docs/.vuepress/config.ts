@@ -68,6 +68,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
               { text: '《Spring原理》', link: '/note/spring/' },
               { text: '《JVM》', link: '/note/jvm/' },
               { text: '《Java并发编程》', link: '/note/concurrency/' },
+              { text: '《学成在线》', link: '/note/xuecheng/' },
             ],
           },
         ],
