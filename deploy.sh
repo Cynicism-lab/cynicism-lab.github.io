@@ -23,3 +23,4 @@ git push -f $githubUrl master:gh-pages # 推送到github
 
 cd -
 rm -rf docs/.vuepress/dist
+
