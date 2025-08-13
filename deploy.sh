@@ -7,7 +7,7 @@ git config --global user.name "cynicism-lab"
 git config --global user.email "1711546733@qq.com"
 git init
 git add -A
-git commit -m "${msg}"
+git commit -m "提交"
 git push -f git@github.com:Cynicism-lab/cynicism-lab/cynicism-lab.github.io.git master:gh-pages # 推送到github
 
 
