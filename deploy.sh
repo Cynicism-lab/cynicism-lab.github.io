@@ -4,15 +4,14 @@ set -e
 npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
 # deploy to github
-git config --local user.name "cynicism-lab"
-git config --local user.email "1711546733@qq.com"
-if [ -z "$blog" ]; then
+
+if [ -z "$ACCESS_TOKEN" ]; then
   msg='deploy'
   githubUrl=git@github.com:Cynicism-lab/cynicism-lab/cynicism-lab.github.io.git
   
 else
   msg='来自github action的自动部署'
-  githubUrl=https://cynicism-lab:${blog}@github.com/cynicism-lab/cynicism-lab.github.io.git
+  githubUrl=https://cynicism-lab:${ACCESS_TOKEN}@github.com/cynicism-lab/cynicism-lab.github.io.git
   git config --global user.name "cynicism-lab"
   git config --global user.email "1711546733@qq.com"
 fi
