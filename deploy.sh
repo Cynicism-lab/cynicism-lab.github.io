@@ -3,7 +3,8 @@
 set -e
 npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
-
+git config --global user.name "cynicism-lab"
+git config --global user.email "1711546733@qq.com"
 git init
 git add -A
 git commit -m "${msg}"
