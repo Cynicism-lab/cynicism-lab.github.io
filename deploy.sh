@@ -4,7 +4,7 @@ set -e
 npm run build # 生成静态文件
 cd docs/.vuepress/dist # 进入生成的文件夹
 # deploy to github
-if [ -z "$GITHUB_TOKEN" ]; then
+if [ -z "$blog" ]; then
   msg='deploy'
   githubUrl=git@github.com:Cynicism-lab/cynicism-lab/cynicism-lab.github.io.git
   
